@@ -1,0 +1,85 @@
+body {
+    width: 1600px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #F6FAFD, #FFFFFF);
+}
+
+.big-container {
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #9C69E2;
+    margin-top: 15px;
+}
+
+.oval-img {
+    width: 20px;
+    height: 35px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B5D68;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-links a:first-child {
+    font-weight: 800;
+}
+
+.request-btn {
+    width: 210px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.btn-text {
+    font-weight: 800;
+    font-size: 16px;
+    color: #212353;
+}
+
+.btn-arrow {
+    width: 20px;
+    height: 14px;
+}

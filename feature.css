@@ -1,0 +1,33 @@
+.features-section {
+    width: 100%;
+    text-align: center;
+    margin: 150px auto;
+    padding: 0 20px;
+}
+
+.cards-section {
+    display: grid;
+    grid-template-columns: 650px 650px;   
+    gap: 30px 50px;                   
+    justify-content: center;          
+    margin-top: 60px;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212353;
+    margin-bottom: 20px;
+}
+
+.features-description {
+    max-width: 500px;   
+    margin: 0 auto;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B5D68;
+}

@@ -6,7 +6,7 @@
 }
 
 .footer {
-    padding: 60px 240px;
+    padding: 60px 10%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -75,6 +75,13 @@
     gap: 15px; 
 }
 
+.footer-buttons .request-btn:hover { 
+    background-color: #4da6ff; 
+    transition-duration: 0.4s;
+    transform: translateY(-2px);
+    transition-timing-function: linear;
+}
+
 .footer-buttons .request-btn .btn-text {
     font-weight: 800;
     font-size: 16px;
@@ -111,4 +118,21 @@
 .footer-bottom-image img {
     width: 60px;   
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
 }
